@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "154822304010",
+    "firebase_url": "https://sharpminds-4871a.firebaseio.com",
+    "project_id": "sharpminds-4871a",
+    "storage_bucket": "sharpminds-4871a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154822304010:android:b8f97748e4d4bb81809af3",
+        "android_client_info": {
+          "package_name": "com.roboticsworld.sharpminds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154822304010-mub9godmq5dtt4oqnbep60gjr2ura1ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ1RwSi5clwnlEKhpix6oJVipUkSs2EWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154822304010-mub9godmq5dtt4oqnbep60gjr2ura1ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

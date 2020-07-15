@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-100dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score : "
+            android:textSize="28dp" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="28dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="@drawable/rod"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/l_up"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="39dp">
+
+            <ImageView
+                android:id="@+id/bd_up_4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="34dp"
+                android:src="@drawable/bead" />
+
+            <ImageView
+                android:id="@+id/bd_up_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="34dp"
+                android:src="@drawable/bead" />
+
+            <ImageView
+                android:id="@+id/bd_up_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="34dp"
+                android:src="@drawable/bead" />
+
+            <ImageView
+                android:id="@+id/bd_up_1"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="34dp"
+                android:src="@drawable/bead" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/reset"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-10.5dp"
+            android:layout_marginLeft="155dp"
+            android:src="@drawable/reset_icon" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginTop="-10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="34dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bd_dn_4_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_4_2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_4_3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_4_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/bead" />
+            </LinearLayout>
+            <!--***************************************************************************-->
+            <!--***************************************************************************-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="34dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bd_dn_3_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_3_2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_3_3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_3_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/bead" />
+            </LinearLayout>
+            <!--***************************************************************************-->
+            <!--***************************************************************************-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="34dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bd_dn_2_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_2_2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_2_3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_2_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/bead" />
+            </LinearLayout>
+            <!--***************************************************************************-->
+            <!--***************************************************************************-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="34dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bd_dn_1_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_1_2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_1_3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="-5dp"
+                    android:src="@drawable/bead" />
+
+                <ImageView
+                    android:id="@+id/bd_dn_1_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/bead" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

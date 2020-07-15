@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background="@color/blue"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/robot"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cv"
+
+        android:elevation="10dp">
+
+        <ImageButton
+            android:id="@+id/btRegister"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="270dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/bg_ui"
+            android:src="@drawable/ic_star_black_24dp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:layout_marginTop="350dp"
+        android:layout_below="@+id/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_call_black_24dp"/>
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/call"
+        android:layout_toRightOf="@+id/call"
+        android:id="@+id/webview" >
+
+    </WebView>
+    -<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/ic_chat_bubble_black_24dp"
+    android:layout_marginTop="355dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginRight="20sp"
+
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_below="@+id/call"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/webview"
+        android:src="@drawable/ic_email"/>
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/call"
+        android:layout_toRightOf="@+id/call"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:text="hr@roboticsworld.com.pk"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
